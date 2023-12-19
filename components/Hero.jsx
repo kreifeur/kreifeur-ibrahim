@@ -30,18 +30,18 @@ const Hero = () => {
   }, []);
   return (
     <div className="w-full h-screen flex flex-col items-center">
-      <div className="h-[100vh]  w-full  py-2 sm:px-10 sm:px-2 flex flex-col items-center justify-center sm:gap-5 gap-10 ">
-        <h1 className="opacity-0 font-black sm:text-8xl text-[35px] name namex text-center">
+      <div className="h-[100vh]  w-full  py-2 md:px-10 md:px-2 flex flex-col items-center justify-center md:gap-5 gap-10 ">
+        <h1 className="opacity-0 font-black md:text-8xl text-4xl name namex text-center">
           HEY , I'M KREIFEUR
         </h1>
-        <h1 className="opacity-0 font-black sm:text-8xl text-[35px] stroke_name namex">
+        <h1 className="opacity-0 font-black md:text-8xl text-4xl stroke_name namex">
           HEY , I'M KREIFEUR
         </h1>
-        <h1 className="opacity-0 font-black sm:text-8xl text-[35px] name namex">
+        <h1 className="opacity-0 font-black md:text-8xl text-4xl name namex">
           HEY , I'M KREIFEUR
         </h1>
 
-        <div className="absolute z-[-10] sm:w-[80%] sm:h-[80%] h-[60%] w-[100%] bg-red-200 rounded box opacity-0 ">
+        <div className="absolute z-[-10] md:w-[80%] md:h-[80%] h-[60%] w-[100%] bg-red-200 rounded box opacity-0 ">
           <Image
             className="rounded"
             src="/assets/images/bg.webp"
