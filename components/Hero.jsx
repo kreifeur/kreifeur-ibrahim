@@ -30,7 +30,7 @@ const Hero = () => {
   }, []);
   return (
     <div className="w-full h-screen flex flex-col items-center">
-      <div className="h-[90vh] mt-[10vh] w-full  py-2 sm:px-10 sm:px-2 flex flex-col items-center justify-center sm:gap-5 gap-10">
+      <div className="h-[100vh]  w-full  py-2 sm:px-10 sm:px-2 flex flex-col items-center justify-center sm:gap-5 gap-10 ">
         <h1 className="opacity-0 font-black sm:text-8xl text-[35px] name namex text-center">
           HEY , I'M KREIFEUR
         </h1>
