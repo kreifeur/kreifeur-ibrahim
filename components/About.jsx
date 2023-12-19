@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <section id="about" className="w-full  ">
-      <div className="mt-[10vh] py-2 px-10 flex flex-col gap-2">
+      <div className="mt-[10vh] py-2 sm:px-10 px-2 flex flex-col gap-2">
         <h1 className="head_text">A brief intro, who am I?</h1>
         <hr />
         <div className="flex gap-4 text-xl font-[200]">
@@ -16,7 +16,7 @@ const About = () => {
             frontend development, productivity and design on YouTube 📸
           </div>
 
-          <div className="flex-1"></div>
+          <div className="flex-1 hidden sm:flex"></div>
         </div>
       </div>
     </section>

@@ -10,7 +10,7 @@ const ProjectCard = () => {
           Frontend developement
         </div>
       </div>
-      <div className="p-5  flex items-center justify-center bg-secondary-600 opacity-1 ">
+      <div className="sm:p-5 p-1  flex items-center justify-center bg-secondary-600 opacity-1 ">
           <Image
             width={1000}
             height={900}
@@ -18,7 +18,7 @@ const ProjectCard = () => {
           />
       </div>
       <div className="flex sm:gap-4 sm:flex-row flex-col gap-2">
-      <button className="black_btn">
+      <button className="black_btn hidden sm:flex">
           2023
         </button>
         <button className="black_btn">
