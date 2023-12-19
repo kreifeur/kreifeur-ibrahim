@@ -31,13 +31,13 @@ const Hero = () => {
   return (
     <div className="w-full h-screen flex flex-col items-center">
       <div className="h-[100vh]  w-full  py-2 md:px-10 md:px-2 flex flex-col items-center justify-center md:gap-5 gap-10 ">
-        <h1 className="opacity-0 font-black md:text-8xl text-4xl name namex text-center">
+        <h1 className="opacity-0 font-black md:text-5xl  text-[35px] name namex text-center lg:text-8xl">
           HEY , I'M KREIFEUR
         </h1>
-        <h1 className="opacity-0 font-black md:text-8xl text-4xl stroke_name namex">
+        <h1 className="opacity-0 font-black md:text-5xl  text-[35px] stroke_name namex lg:text-8xl">
           HEY , I'M KREIFEUR
         </h1>
-        <h1 className="opacity-0 font-black md:text-8xl text-4xl name namex">
+        <h1 className="opacity-0 font-black md:text-5xl  text-[35px] name namex lg:text-8xl">
           HEY , I'M KREIFEUR
         </h1>
 
