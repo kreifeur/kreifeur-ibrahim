@@ -1,6 +1,6 @@
 const ServiceCard = () => {
   return (
-    <div className="flex gap-10 p-5  w-[90%]  ">
+    <div className="flex gap-10 p-5  w-[90%] flex-col sm:flex-row  ">
       <div className="flex-1">
         <div className="text-2xl font-bold mb-3">my expertises.</div>
 
