@@ -5,7 +5,7 @@ const Contact = () => {
       <div className="mt-[10vh] py-2 sm:px-10 px-2 flex flex-col gap-2 items-center  ">
         <h1 className="w-full name head_text text-secondary-600">Contact me</h1>
         <hr className="w-full" />
-        <div className="flex font-[200] w-[90%] items-center  gap-[20vh]">
+        <div className="flex font-[200] md:w-[90%] w-full items-center flex-col md:flex-row  md:gap-[20vh] gap-[10vh]">
           <div className="flex-[2] flex flex-col gap-6">
             <h1 className="head_text">
               Have an awesome idea? Let's bring it to life.
@@ -14,7 +14,7 @@ const Contact = () => {
               I am currently not available for freelance work. I am accepting
               new projects starting from February 2022.
             </p>
-            <div className="flex gap-10">
+            <div className="flex gap-10 flex-col md:flex-row">
               <input
                 className="py-2 outline-none border-b border-b-black"
                 placeholder="Your name"
@@ -38,7 +38,7 @@ const Contact = () => {
               Send message
             </button>
           </div>
-          <div className="flex-[1] flex flex-col gap-10">
+          <div className="flex-[1] w-full flex flex-col md:gap-10 gap-3 ">
             <div>
               <h1 className="text-xl font-bold my-2">My Digital Spaces</h1>
               <ul className="flex flex-col gap-4">
