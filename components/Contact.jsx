@@ -12,7 +12,7 @@ const Contact = () => {
             </h1>
             <p className="text-xl text-secondary-500">
               I am currently not available for freelance work. I am accepting
-              new projects starting from February 2022.
+              new projects starting from February 2023.
             </p>
             <div className="flex gap-10 flex-col md:flex-row">
               <input
