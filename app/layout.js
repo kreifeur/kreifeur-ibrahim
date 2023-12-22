@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className="text-sm main">
         <Navbar />
         {children}
-       {/*  <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
